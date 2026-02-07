@@ -116,6 +116,84 @@ These scripts automate:
 – CSV-driven provisioning  
 – Idempotent logic (safe to re-run without duplicates)
 
+---
+
+## ▶️ How to Run These Scripts
+
+These automation scripts streamline the setup of your Active Directory environment by creating the OU structure and bulk‑importing users from a CSV file. All commands below are run inside your Windows Server VM.
+
+---
+
+## 🧩 Prerequisites
+
+Before running the scripts, ensure the following:
+
+- Active Directory Domain Services (AD DS) is installed and the server is promoted to a domain controller
+- PowerShell is running as Administrator
+- RSAT: Active Directory module is available
+- The following files exist in `C:\Scripts`:
+  - `Create-ADStructure.ps1`
+  - `users.csv`
+  - (Optional) `Create-ADUsers.ps1` if user creation is a separate script
+- The CSV file includes these headers:
+  - `FirstName`, `LastName`, `Username`, `Department`
+
+---
+
+## ▶️ Running the AD Structure Script
+
+This script builds the full OU hierarchy for your domain.
+
+From an elevated PowerShell window:
+
+``powershell
+cd C:\Scripts
+.\Create-ADStructure.ps1
+
+### ▶️ Running the Bulk User Creation Script
+This script reads users.csv and creates users in the correct OUs based on the Department field.
+
+If user creation is included in the same script:
+
+``powershell
+cd C:\Scripts
+.\Create-ADStructure.ps1
+
+If user creation is a separation script:
+
+``poweshell
+cd C:\Scripts
+.\Create-ADUsers.ps1 -CsvPath "C:\Scripts\users.csv"
+
+You will see output for each user created, including their assigned OU.
+
+### 🔍 Verifying the Results
+
+Open Active Directory Users and Computers and confirm:
+
+- All OUs appear under the domain
+- All users are created
+- Users are placed in the correct OU based on Department
+- User attributes match the CSV
+
+### 🛠️ Troubleshooting
+
+CSV not found
+C:\Scripts\users.csv and the path matches your script's parameter.
+
+Import-Csv errors
+Verify the CSV headers exactly match:
+FirstName,LastName,Username,Department
+
+Access denied or insufficient permissions
+Run Poweshell as Administrator
+
+OUs not appearing
+Confirm the AD DS role is installed and the server is a domain controller.
+
+Users created in the wrong OU
+Check for typos or inconsistent Department names in the CSV
+
 ## 🖥️ SCRIPT EXECUTION
 
 📸 Script Execution  
