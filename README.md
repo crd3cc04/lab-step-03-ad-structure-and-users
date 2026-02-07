@@ -101,6 +101,8 @@ Sales OU: Sales_Users
 👥 Members tab showing Admins and IT users assigned to the IT_Admins group.  
 ![IT Admins Group](screenshots/10_it_admins_group.png)
 
+---
+
 ## ⚙️ AUTOMATION SCRIPTS
 
 The scripts used in this step are located in the scripts folder:
@@ -116,13 +118,9 @@ These scripts automate:
 – CSV-driven provisioning  
 – Idempotent logic (safe to re-run without duplicates)
 
----
-
 ## ▶️ How to Run These Scripts
 
 These automation scripts streamline the setup of your Active Directory environment by creating the OU structure and bulk‑importing users from a CSV file. All commands below are run inside your Windows Server VM.
-
----
 
 ## 🧩 Prerequisites
 
@@ -137,8 +135,6 @@ Before running the scripts, ensure the following:
   - (Optional) `Create-ADUsers.ps1` if user creation is a separate script
 - The CSV file includes these headers:
   - `FirstName`, `LastName`, `Username`, `Department`
-
----
 
 ## ▶️ Running the AD Structure Script
 
