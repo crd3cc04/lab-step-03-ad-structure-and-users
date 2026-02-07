@@ -5,29 +5,7 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 ## 📁 PROJECT FOLDER STRUCTURE
 
-lab-step-03-ad-structure-and-users/<br>
-|
-├── README.md   ← 📘 This document<br>
-│
-├── scripts/    ← ⚙️ PowerShell automation scripts<br>
-|
-
-     ├── Create-ADStructure.ps1
-     └── users.csv
-│
-└── screenshots/ ← 📸 All verification screenshots
-
-      ├── 01_lab_ou_structure.png
-      ├── 02_sales_ou_users.png
-      ├── 03_hr_ou_users.png
-      ├── 04_it_ou_users.png
-      ├── 05_admins_ou_users.png
-      ├── 06_sales_users_group.png
-      ├── 07_hr_users_group.png
-      ├── 08_helpdesk_tier1_group.png
-      ├── 09_workstation_admins_group.png
-      ├── 10_it_admins_group.png
-      └── 11_script_execution.png
+lab-step-03-ad-structure-and-users/<br> │<br> ├── README.md ← 📘 Main documentation │<br> ├── scripts/ ← ⚙️ Automation scripts + CSV │<br> ├── Create-ADStructure.ps1 │ ├── Create-ADUsers.ps1 (if separate) │ └── users.csv │ └── screenshots/ ← 📸 Verification screenshots ├── 01_lab_ou_structure.png ├── 02_sales_ou_users.png ├── 03_hr_ou_users.png ├── 04_it_ou_users.png ├── 05_admins_ou_users.png ├── 06_sales_users_group.png ├── 07_hr_users_group.png ├── 08_helpdesk_tier1_group.png ├── 09_workstation_admins_group.png ├── 10_it_admins_group.png └── 11_script_execution.png
 
 ## 🗂️ ORGANIZATIONAL UNIT STRUCTURE
 
