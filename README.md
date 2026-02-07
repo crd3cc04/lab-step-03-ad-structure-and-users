@@ -1,9 +1,9 @@
-## 🚀 STEP 03 – ACTIVE DIRECTORY AUTOMATION (OUs, USERS, GROUPS)
+# 🚀 STEP 03 – ACTIVE DIRECTORY AUTOMATION (OUs, USERS, GROUPS)
 
 OVERVIEW 📘
 In this step, I automated the creation of a complete Active Directory structure using PowerShell. This included creating Organizational Units (OUs), security groups, user accounts, and assigning users to groups based on their department. All objects were generated from a CSV file, simulating a realistic enterprise onboarding workflow. Verification was completed using Active Directory Users and Computers (ADUC).
 
-# 📁 PROJECT FOLDER STRUCTURE
+## 📁 PROJECT FOLDER STRUCTURE
 
 lab-step-03-ad-structure-and-users/
 │
@@ -26,9 +26,7 @@ lab-step-03-ad-structure-and-users/
       ├── 10_it_admins_group.png
       └── 11_script_execution.png
 
-###############################################################
-# 🗂️ ORGANIZATIONAL UNIT STRUCTURE
-###############################################################
+## 🗂️ ORGANIZATIONAL UNIT STRUCTURE
 
 The following OUs were created under the root LAB OU:
 
@@ -44,9 +42,7 @@ ServiceAccounts
 🌳 Full OU hierarchy created under the LAB root OU.  
 ![LAB OU Structure](screenshots/01_lab_ou_structure.png)
 
-###############################################################
-# 👥 USERS IN EACH OU
-###############################################################
+## 👥 USERS IN EACH OU
 
 Users were created from a CSV file containing FirstName, LastName, Department, and Username. Each user was automatically placed into the correct OU.
 
@@ -66,9 +62,7 @@ Users were created from a CSV file containing FirstName, LastName, Department, a
 🧾 Admin users created and placed in the Admins OU.  
 ![Admins OU](screenshots/05_admins_ou_users.png)
 
-###############################################################
-# 🔐 SECURITY GROUPS
-###############################################################
+## 🔐 SECURITY GROUPS
 
 The following security groups were created and placed inside their respective OUs:
 
@@ -77,9 +71,7 @@ IT OU: Helpdesk_Tier1, Workstation_Admins
 HR OU: HR_Users  
 Sales OU: Sales_Users  
 
-###############################################################
-# ✅ GROUP MEMBERSHIP VERIFICATION
-###############################################################
+## ✅ GROUP MEMBERSHIP VERIFICATION
 
 📸 Sales_Users Group  
 👥 Members tab showing all Sales users assigned to the Sales_Users group.  
@@ -101,9 +93,7 @@ Sales OU: Sales_Users
 👥 Members tab showing Admins and IT users assigned to the IT_Admins group.  
 ![IT Admins Group](screenshots/10_it_admins_group.png)
 
-###############################################################
-# ⚙️ AUTOMATION SCRIPTS
-###############################################################
+## ⚙️ AUTOMATION SCRIPTS
 
 The scripts used in this step are located in the scripts folder:
 
@@ -120,17 +110,13 @@ These scripts automate:
 – CSV-driven provisioning  
 – Idempotent logic (safe to re-run without duplicates)
 
-###############################################################
-# 🖥️ SCRIPT EXECUTION
-###############################################################
+## 🖥️ SCRIPT EXECUTION
 
 📸 Script Execution  
 💻 PowerShell output showing the automation script running successfully.  
 ![Script Execution](screenshots/11_script_execution.png)
 
-###############################################################
-# 💬 REFLECTION
-###############################################################
+## 💬 REFLECTION
 
 This step reinforced several important concepts in enterprise Active Directory management:
 
@@ -142,4 +128,3 @@ This step reinforced several important concepts in enterprise Active Directory m
 
 This workflow mirrors real-world IT onboarding processes and demonstrates the ability to automate and validate an entire AD structure from scratch.
 
-###############################################################
