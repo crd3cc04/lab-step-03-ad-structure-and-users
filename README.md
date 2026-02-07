@@ -142,30 +142,30 @@ This script builds the full OU hierarchy for your domain.
 
 From an elevated PowerShell window:
 
-``powershell<br>
-`cd C:\Scripts<br>
-.\Create-ADStructure.ps1`
+**powershell<br>*
+`cd C:\Scripts`<br>
+`.\Create-ADStructure.ps1`
 
 ### ▶️ Running the Bulk User Creation Script
 This script reads users.csv and creates users in the correct OUs based on the Department field.
 
 If user creation is included in the same script:
 
-``powershell
-`cd C:\Scripts
-.\Create-ADStructure.ps1`
+**powershell<br>*
+`cd C:\Scripts`<br>
+`.\Create-ADStructure.ps1`
 
 If user creation is a separation script:
 
-``poweshell
-cd C:\Scripts
-.\Create-ADUsers.ps1 -CsvPath "C:\Scripts\users.csv"
+**powershell<br>*
+`cd C:\Scripts`<br>
+`.\Create-ADUsers.ps1 -CsvPath "C:\Scripts\users.csv"`
 
 You will see output for each user created, including their assigned OU.
 
 ### 🔍 Verifying the Results
 
-Open Active Directory Users and Computers and confirm:
+Open **Active Directory Users and Computers** and confirm:
 
 - All OUs appear under the domain
 - All users are created
@@ -174,20 +174,20 @@ Open Active Directory Users and Computers and confirm:
 
 ### 🛠️ Troubleshooting
 
-CSV not found
-C:\Scripts\users.csv and the path matches your script's parameter.
+**CSV not found**
+`C:\Scripts\users.csv` and the path matches your script's parameter.
 
-Import-Csv errors
+**Import-Csv errors**
 Verify the CSV headers exactly match:
-FirstName,LastName,Username,Department
+**FirstName,LastName,Username,Department**
 
-Access denied or insufficient permissions
+**Access denied or insufficient permissions**
 Run Poweshell as Administrator
 
-OUs not appearing
+**OUs not appearing**
 Confirm the AD DS role is installed and the server is a domain controller.
 
-Users created in the wrong OU
+**Users created in the wrong OU**
 Check for typos or inconsistent Department names in the CSV
 
 ## 🖥️ SCRIPT EXECUTION
