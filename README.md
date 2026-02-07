@@ -12,17 +12,17 @@ lab-step-03-ad-structure-and-users/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── Create-ADUsers.ps1 (if separate)<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;└── users.csv<br> 
 └── screenshots/ ← 📸 Verification screenshots<br> 
-    ├── 01_lab_ou_structure.png<br> 
-    ├── 02_sales_ou_users.png<br> 
-    ├── 03_hr_ou_users.png<br> 
-    ├── 04_it_ou_users.png<br> 
-    ├── 05_admins_ou_users.png<br> 
-    ├── 06_sales_users_group.png<br> 
-    ├── 07_hr_users_group.png<br> 
-    ├── 08_helpdesk_tier1_group.png<br> 
-    ├── 09_workstation_admins_group.png<br> 
-    ├── 10_it_admins_group.png<br> 
-    └── 11_script_execution.png<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── 01_lab_ou_structure.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 02_sales_ou_users.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 03_hr_ou_users.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 04_it_ou_users.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 05_admins_ou_users.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 06_sales_users_group.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 07_hr_users_group.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 08_helpdesk_tier1_group.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 09_workstation_admins_group.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;├── 10_it_admins_group.png<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;└── 11_script_execution.png<br>
 
 ## 🗂️ ORGANIZATIONAL UNIT STRUCTURE
 
