@@ -6,18 +6,14 @@ In this step, I automated the creation of a complete Active Directory structure 
 ## 📁 PROJECT FOLDER STRUCTURE
 
 lab-step-03-ad-structure-and-users/
-
-│
-
 ├── README.md   ← 📘 This document
 
 │
 
 ├── scripts/    ← ⚙️ PowerShell automation scripts
 
-│     ├── Create-ADStructure.ps1
-
-│     └── users.csv
+     ├── Create-ADStructure.ps1
+     └── users.csv
 
 │
 
