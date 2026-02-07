@@ -7,16 +7,13 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 lab-step-03-ad-structure-and-users/<br>
 |<br>
-|<br>
 ├── README.md   ← 📘 This document<br>
 │<br>
-|<br>
 ├── scripts/    ← ⚙️ PowerShell automation scripts<br>
 |<br>
      ├── Create-ADStructure.ps1
      └── users.csv
 │<br>
-|<br>
 └── screenshots/ ← 📸 All verification screenshots<br>
       ├── 01_lab_ou_structure.png
       ├── 02_sales_ou_users.png
