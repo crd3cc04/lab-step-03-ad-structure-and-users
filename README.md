@@ -106,9 +106,7 @@ Sales OU: Sales_Users
 The scripts used in this step are located in the scripts folder:
 
 Create-ADStructure.ps1
-![Scripts](screenshots/11_script_execution.png)
 users.csv
-![Scripts](screenshots/11_script_execution.png)
 
 These scripts automate:  
 – OU creation  
