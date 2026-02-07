@@ -172,7 +172,7 @@ Open **Active Directory Users and Computers** and confirm:
 
 **Import-Csv errors**<br>
 Verify the CSV headers exactly match:<br>
-**FirstName,LastName,Username,Department**
+`FirstName`, `LastName`, `Username`, `Department`
 
 **Access denied or insufficient permissions**<br>
 Run Poweshell as Administrator
