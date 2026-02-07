@@ -133,8 +133,10 @@ This script builds the full OU hierarchy for your domain.
 From an elevated PowerShell window:
 
 *powershell<br>*
-`cd C:\Scripts`<br>
-`.\Create-ADStructure.ps1`
+```sh
+cd C:\Scripts<br>
+.\Create-ADStructure.ps1
+```
 
 ### ▶️ Running the Bulk User Creation Script
 This script reads `users.csv` and creates users in the correct OUs based on the Department field.
