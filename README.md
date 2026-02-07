@@ -134,25 +134,26 @@ From an elevated PowerShell window:
 
 *powershell<br>*
 ```sh
-cd C:\Scripts<br>
+cd C:\Scripts
 .\Create-ADStructure.ps1
 ```
-
 ### ▶️ Running the Bulk User Creation Script
 This script reads `users.csv` and creates users in the correct OUs based on the Department field.
 
 If user creation is included in the same script:
 
 *powershell<br>*
-`cd C:\Scripts`<br>
-`.\Create-ADStructure.ps1`
-
+```sh
+cd C:\Scripts
+.\Create-ADStructure.ps1
+```
 If user creation is a separation script:
 
 *powershell<br>*
-`cd C:\Scripts`<br>
-`.\Create-ADUsers.ps1 -CsvPath "C:\Scripts\users.csv"`
-
+```sh
+cd C:\Scripts
+.\Create-ADUsers.ps1 -CsvPath "C:\Scripts\users.csv"
+```
 You will see output for each user created, including their assigned OU.
 
 ### 🔍 Verifying the Results
