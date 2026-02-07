@@ -5,7 +5,7 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 ## 📁 PROJECT FOLDER STRUCTURE
 
-`lab-step-03-ad-structure-and-users/ 
+`lab-step-03-ad-structure-and-users/<br> 
 │ 
 ├── README.md ← 📘 Main documentation 
 │ 
