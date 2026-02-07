@@ -10,7 +10,7 @@ lab-step-03-ad-structure-and-users/<br>
 ├── scripts/ ← ⚙️ Automation scripts + CSV<br> 
     ```├── Create-ADStructure.ps1```<br> 
     ```├── Create-ADUsers.ps1 (if separate)```<br> 
-    └── users.csv<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;└── users.csv<br> 
 └── screenshots/ ← 📸 Verification screenshots<br> 
     ├── 01_lab_ou_structure.png<br> 
     ├── 02_sales_ou_users.png<br> 
