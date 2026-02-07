@@ -38,7 +38,8 @@ ServiceAccounts
 
 Screenshot: LAB OU Structure
 Caption: The full OU hierarchy created under the LAB root OU.
-File: 01_lab_ou_structure.png
+![LAB OU Structure](screenshots/01_lab_ou_structure.png)
+
 
 USERS IN EACH OU
 Users were created from a CSV file containing FirstName, LastName, Department, and Username. Each user was automatically placed into the correct OU.
