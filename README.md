@@ -5,7 +5,7 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 ## 📁 PROJECT FOLDER STRUCTURE
 
-`lab-step-03-ad-structure-and-users/<br> 
+lab-step-03-ad-structure-and-users/<br> 
 │ 
 ├── README.md ← 📘 Main documentation 
 │ 
@@ -24,7 +24,7 @@ In this step, I automated the creation of a complete Active Directory structure 
   ├── 08_helpdesk_tier1_group.png 
   ├── 09_workstation_admins_group.png 
   ├── 10_it_admins_group.png 
-  └── 11_script_execution.png`
+  └── 11_script_execution.png
 
 ## 🗂️ ORGANIZATIONAL UNIT STRUCTURE
 
