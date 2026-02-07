@@ -1,6 +1,4 @@
-###############################################################
 # 🚀 STEP 03 – ACTIVE DIRECTORY AUTOMATION (OUs, USERS, GROUPS)
-###############################################################
 
 OVERVIEW 📘
 In this step, I automated the creation of a complete Active Directory structure using PowerShell. This included creating Organizational Units (OUs), security groups, user accounts, and assigning users to groups based on their department. All objects were generated from a CSV file, simulating a realistic enterprise onboarding workflow. Verification was completed using Active Directory Users and Computers (ADUC).
