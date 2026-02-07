@@ -7,7 +7,6 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 lab-step-03-ad-structure-and-users/<br> 
 ├── README.md ← 📘 Main documentation<br> 
-│ 
 ├── scripts/ ← ⚙️ Automation scripts + CSV<br> 
 │ ├── Create-ADStructure.ps1 
 │ ├── Create-ADUsers.ps1 (if separate) 
