@@ -5,23 +5,19 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 ## 📁 PROJECT FOLDER STRUCTURE
 
-lab-step-03-ad-structure-and-users/
-
-|
-
-├── README.md   ← 📘 This document
-
-│
-
-├── scripts/    ← ⚙️ PowerShell automation scripts
-
+lab-step-03-ad-structure-and-users/<br>
+|<br>
+|<br>
+├── README.md   ← 📘 This document<br>
+│<br>
+|<br>
+├── scripts/    ← ⚙️ PowerShell automation scripts<br>
+|<br>
      ├── Create-ADStructure.ps1
      └── users.csv
-
-│
-
-└── screenshots/ ← 📸 All verification screenshots
-
+│<br>
+|<br>
+└── screenshots/ ← 📸 All verification screenshots<br>
       ├── 01_lab_ou_structure.png
       ├── 02_sales_ou_users.png
       ├── 03_hr_ou_users.png
@@ -147,7 +143,7 @@ From an elevated PowerShell window:
 `.\Create-ADStructure.ps1`
 
 ### ▶️ Running the Bulk User Creation Script
-This script reads users.csv and creates users in the correct OUs based on the Department field.
+This script reads `users.csv` and creates users in the correct OUs based on the Department field.
 
 If user creation is included in the same script:
 
