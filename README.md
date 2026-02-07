@@ -8,11 +8,11 @@ In this step, I automated the creation of a complete Active Directory structure 
 lab-step-03-ad-structure-and-users/<br> 
 ├── README.md ← 📘 Main documentation<br> 
 ├── scripts/ ← ⚙️ Automation scripts + CSV<br> 
-  ├── Create-ADStructure.ps1<br> 
+  `├── Create-ADStructure.ps1<br> 
   ├── Create-ADUsers.ps1 (if separate)<br> 
-  └── users.csv<br> 
+  └── users.csv<br>` 
 └── screenshots/ ← 📸 Verification screenshots 
-  ├── 01_lab_ou_structure.png 
+  `├── 01_lab_ou_structure.png 
   ├── 02_sales_ou_users.png 
   ├── 03_hr_ou_users.png 
   ├── 04_it_ou_users.png 
@@ -22,7 +22,7 @@ lab-step-03-ad-structure-and-users/<br>
   ├── 08_helpdesk_tier1_group.png 
   ├── 09_workstation_admins_group.png 
   ├── 10_it_admins_group.png 
-  └── 11_script_execution.png
+  └── 11_script_execution.png`
 
 ## 🗂️ ORGANIZATIONAL UNIT STRUCTURE
 
