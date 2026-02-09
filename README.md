@@ -5,24 +5,28 @@ In this step, I automated the creation of a complete Active Directory structure 
 
 ## 📁 PROJECT FOLDER STRUCTURE
 
-lab-step-03-ad-structure-and-users/<br> 
-├── README.md ← 📘 Main documentation<br> 
-├── scripts/ ← ⚙️ Automation scripts + CSV<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── Create-ADStructure.ps1<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── Create-ADUsers.ps1 (if separate)<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;└── users.csv<br> 
-└── screenshots/ ← 📸 Verification screenshots<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 01_lab_ou_structure.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 02_sales_ou_users.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 03_hr_ou_users.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 04_it_ou_users.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 05_admins_ou_users.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 06_sales_users_group.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 07_hr_users_group.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 08_helpdesk_tier1_group.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 09_workstation_admins_group.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;├── 10_it_admins_group.png<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;└── 11_script_execution.png<br>
+```
+lab-step-03-ad-structure-and-users
+|
+├── README.md ← 📘 Main documentation
+|
+├── scripts/ ← ⚙️ Automation scripts + CSV
+|     ├── Create-ADStructure.ps1 
+|     ├── Create-ADUsers.ps1 (if separate) 
+|     └── users.csv 
+└── screenshots/ ← 📸 Verification screenshots 
+|     ├── 01_lab_ou_structure.png 
+|     ├── 02_sales_ou_users.png 
+|     ├── 03_hr_ou_users.png 
+|     ├── 04_it_ou_users.png 
+|     ├── 05_admins_ou_users.png 
+|     ├── 06_sales_users_group.png 
+|     ├── 07_hr_users_group.png 
+|     ├── 08_helpdesk_tier1_group.png 
+|     ├── 09_workstation_admins_group.png 
+|     ├── 10_it_admins_group.png 
+      └── 11_script_execution.png
+```
 
 ## 🗂️ ORGANIZATIONAL UNIT STRUCTURE
 
